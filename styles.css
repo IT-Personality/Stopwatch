@@ -1,0 +1,200 @@
+body{
+	background: rgb(12, 12, 12) !important; 
+	color: #fff !important;
+}
+.center{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.nav-bars-background{
+	background-color: #161616!important;
+}
+.menu{
+	padding:13px !important;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 0.5rem;
+    padding-left: 3.5rem !important;
+	font-size: 18px !important;
+}.navbar-brand {
+    display: inline-block;
+    padding-top: 0.3125rem;
+    padding-bottom: 0.3125rem;
+    margin-right: 1rem;
+    font-size: 28px !important;
+    line-height: inherit;
+    white-space: nowrap;
+}
+.main {
+    width: 100%;
+    height: 77vh;
+}
+.container_2{
+	flex-direction: column;
+}
+.menu-li-a {
+    margin-left: 170px;
+}
+.buttons{
+    margin-top: 3%;
+}
+.watch {
+    min-width: 239px;
+    border-radius: 537%;
+    height: 229px !important;
+    background: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container h2{
+	font-size: 5rem;
+	margin: 35px;
+	font-family: 'Roboto', sans-serif;
+}
+.stopwatch {
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 7%;
+}
+#watch{
+    color: #e6e6e6;
+}
+.watch_time {
+    width: 219px;
+    background: #0c0c0c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 210px;
+    border-radius: 4550%;
+}
+.buttons > button {
+    width: 150px;
+    height: 40px;
+    font-size: 17px !important;
+    color: #fff;
+    background: #000;
+    margin-left: 11px !important;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    background: #0095ff;
+    box-shadow: 0 0 7px #0095ff;
+    border-radius: 30px !important;
+}
+
+@-webkit-keyframes AnimationName {
+    0%{background-position:0% 83%}
+    50%{background-position:100% 18%}
+    100%{background-position:0% 83%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:0% 83%}
+    50%{background-position:100% 18%}
+    100%{background-position:0% 83%}
+}
+@-o-keyframes AnimationName {
+    0%{background-position:0% 83%}
+    50%{background-position:100% 18%}
+    100%{background-position:0% 83%}
+}
+@keyframes AnimationName {
+    0%{background-position:0% 83%}
+    50%{background-position:100% 18%}
+    100%{background-position:0% 83%}
+}
+.buttons > button:hover{
+    background-color: #24a4ff;
+    box-shadow: 0 0 7px #24a4ff;
+}
+
+@media screen and (max-width: 600px) {
+    .stopwatch {
+        font-family: 'Roboto', sans-serif;
+        margin-bottom: 7%;
+        text-align: center;
+        font-size: 195%;
+    }
+    .buttons > button {
+        width: 150px;
+        height: 40px;
+        font-size: 17px !important;
+        color: #fff;
+        background: #000;
+        margin-left: 0px !important;
+        outline: none;
+        border: none;
+        margin-bottom: 22px;
+        cursor: pointer;
+        background: #0095ff;
+        box-shadow: 0 0 7px #0095ff;
+        border-radius: 30px !important;
+    }
+    .buttons {
+        margin-top: 5%;
+        display: grid;
+    }
+    .main {
+        width: 100%;
+        height: 90vh;
+    }
+    .navbar-brand {
+        display: inline-block;
+        padding-top: 0.3125rem;
+        padding-bottom: 0.3125rem;
+        margin-right: 1rem;
+        margin-left: 23px !important;
+        font-size: 1.25rem;
+        line-height: inherit;
+        white-space: nowrap;
+    }
+    #menu_biuf{
+        background-color: #fff !important;
+    }
+    .navbar-toggler-icon {
+        display: inline-block;
+        width: 1.5em;
+        height: 1.5em;
+        vertical-align: middle;
+        content: "";
+        background-size: 100% 100%;
+    }
+    .img_menu{
+        width: 92%;
+    margin-top: 4%;
+    }
+    .navbar-collapse {
+        -ms-flex-preferred-size: 100%;
+        flex-basis: 100%;
+        -ms-flex-positive: 1;
+        flex-grow: 1;
+        display: flex;
+        -ms-flex-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+    .navbar-expand-lg .navbar-nav .nav-link {
+        padding-right: 0.5rem;
+        padding-left: 3.5rem !important;
+        font-size: 20px !important;
+    }
+    .menu-li-a {
+        margin-left: 64px !important;
+        text-align: center !important;
+    }
+  }
+
+  @media screen and (max-width: 992px) and (min-width: 601px){
+    .img_menu{
+        width: 102%;
+    }
+    #menu_biuf{
+        background: aliceblue;
+    }
+    .menu-li-a {
+        margin-left: -34px !important;
+        text-align: center !important;
+    }
+  }
